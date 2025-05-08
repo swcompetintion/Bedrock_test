@@ -1,0 +1,29 @@
+.dropdownContainer {
+    display: inline-block;
+  }
+  
+  .categoryDropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+    appearance: none; 
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 20 20'%3E%3Cpolygon fill='%23666' points='0,0 20,0 10,10'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .categoryDropdown:focus {
+    border-color: #3730A3;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(123, 93, 244, 0.3);
+  }
+  
+  .categoryDropdown option {
+    padding: 8px;
+  }
+  

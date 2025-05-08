@@ -1,0 +1,19 @@
+.Table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 400px;
+    width: 70%;
+  }
+
+.Graph {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 0.5rem;
+  width: 70%;
+  padding: 50px 0px 50px 0px;
+}
