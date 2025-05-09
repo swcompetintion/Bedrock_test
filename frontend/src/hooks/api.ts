@@ -5,12 +5,6 @@ import { idText } from "typescript";
 
 
 const API_URL: string = 'http://localhost:8000/api/plans';
-
-const addDDay: (plan: BasePlan) => void = plan => {
-    const now: number = new Date().getTime();
-    const dDay: number = (new Date(plan.date).getTime() - now) / (1000 * 60 * 60 * 24);
-    (plan as Plan).dDay = Number((dDay + 1).toFixed());
-  }
   
 
 export default function usePlans() {
